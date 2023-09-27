@@ -7,7 +7,7 @@
     "types": ["vite/client"],
     "paths": {
       "/@/*": ["src/*"],
-      "/#/*": ["types/*"],
+      "/#/*": ["types/*"],//"src/**/*.ts" 表示匹配项目中 "src" 目录下的所有 TypeScript 文件，包括嵌套在子目录中的文件。
       "@/*": ["src/*"],
       "#/*": ["types/*"]
     }
